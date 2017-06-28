@@ -1,0 +1,179 @@
+/*
+font info:
+    family - Helvetica, Arial, sans-serif
+    line-height - 1.6
+
+
+colors:
+    light gray - ##eee
+    gray - #dddddd
+    yellow - #ffd24a
+    orange - #ff8523
+    blue - #1fabe5
+    dark blue - #046c97
+*/
+
+body {
+  background-color: #046c97;
+}
+body > div {
+  border: 2px solid #ffd24a;
+  background-color: white;
+}
+
+#site_header {
+  background: DarkOrange;
+  padding: 20px;
+  padding-top: 15px;
+}
+
+
+.main_navigation {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.main_navigation > a {
+  border: 1px solid white;
+  padding: 5px 25px 5px 25px;
+  margin: 1px;
+  color: white;
+  text-decoration: none;
+  border-radius: 3px;
+  font-family: arial;
+}
+
+#page_content {
+  font-family: arial;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+#page_content h2 {
+  color: #1fabe5;
+
+}
+
+#page_content h3 {
+  color: #1fabe5;
+
+}
+
+#page_content ul {
+  font-weight: 700;
+  margin-bottom: 80px;
+
+}
+
+#page_content ul > li {
+  margin: 5px;
+}
+
+#page_content > section {
+  border-bottom: 3px solid #eee;
+
+}
+
+#page_content > section > p > a {
+  color: #1fabe5;
+}
+
+section > table {
+  border-collapse: collapse;
+  margin-bottom: 50px;
+}
+
+section > table > thead {
+  background-color: #1fabe5;
+  color: white;
+  border: 1px solid black;
+  margin: -2px;
+
+}
+
+section > table > thead > tr {
+
+}
+
+section > table > thead > tr > td {
+  padding: 10px 40px 10px 10px;
+  text-align: left;
+  border: 1px solid black;
+  margin: -3px;
+}
+
+section > table > tbody > tr > td {
+  border: 1px solid #1fabe5;
+  margin: 0px;
+  padding: 10px;
+  text-align: left;
+}
+
+section > table > tbody > tr > td > img {
+  width: 50%;
+  height: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section > form {
+  background-color: #eee;
+  padding: 20px;
+  border-radius: 3px;
+  margin-bottom: 40px;
+}
+
+section > form > div.name {
+  background-color: #ff8523;
+  padding: 20px;
+  border-radius: 3px;
+  color: white;
+  margin-bottom: 40px;
+  margin-right: 0px;
+}
+
+#first_name, #last_name {
+  height: 25px;
+  width: 200px;
+  margin-right: 15px;
+}
+
+.city_container {
+  margin-bottom: 40px;
+}
+
+form > div {
+  margin-right: 20px;
+}
+
+form > div > label {
+  font-weight: 700;
+}
+
+#bio {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #1fabe5;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 3px;
+  width: 100%;
+}
+
+
+#submit_button {
+  background-color: #1fabe5;
+  color: white;
+  padding: 10px 20px;
+  box-shadow: none;
+  border: 0px;
+  border-radius: 3px;
+  font-family: arial;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+section {
+  margin-bottom: 20px;
+}
