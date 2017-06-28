@@ -110,8 +110,8 @@ section > table > tbody > tr > td {
 }
 
 section > table > tbody > tr > td > img {
-  width: 50%;
-  height: 50%;
+  width: 75%;
+  height: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
